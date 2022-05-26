@@ -4,6 +4,8 @@ import os
 import json
 import numpy as np
 import pandas as pd
+!pip install scikit-image
+!pip install skimage
 from skimage.io import imread
 from PIL import Image
 from fastai.vision.all import Learner, Normalize, imagenet_stats
